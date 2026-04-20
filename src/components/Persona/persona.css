@@ -1,0 +1,51 @@
+.persona {
+    position: absolute;
+    height: 40vh;
+    width: auto;
+    bottom: 0;
+}
+
+.persona--left {
+    left: 0;
+}
+
+.persona--right {
+    right: 0;
+}
+
+.persona-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeUp 1s ease forwards;
+}
+
+.persona_bubble {
+    position: absolute;
+    bottom: 40vh;
+    opacity: 0;
+    animation: opacity 1s ease forwards;
+}
+
+.persona_bubble--left {
+    left: 0;
+}
+
+.persona_bubble--right {
+    right: 0;
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes opacity {
+    to {
+        opacity: 1;
+    }
+}

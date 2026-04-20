@@ -1,0 +1,50 @@
+.bubble {
+    position: absolute;
+    display: inline-block;
+    max-width: 280px;
+    min-width: 80px;
+    padding: 16px 20px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 24px;
+    font-weight: 600;
+    box-shadow:
+            0 4px 12px rgba(0, 0, 0, 0.06),
+            0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+.bubble::before {
+    content: '';
+    position: absolute;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-top: 18px solid black;
+}
+
+.bubble::after {
+    content: '';
+    position: absolute;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 16px solid white;
+}
+
+.bubble--bottom-left::before {
+    left: 28px;
+    bottom: -18px;
+}
+
+.bubble--bottom-left::after {
+    left: 30px;
+    bottom: -14px;
+}
+
+.bubble--bottom-right::before {
+    right: 28px;
+    bottom: -18px;
+}
+
+.bubble--bottom-right::after {
+    right: 30px;
+    bottom: -14px;
+}

@@ -1,0 +1,25 @@
+.map {
+    position: absolute;
+    height: 40vh;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-image {
+    width: auto;
+    height: 100%;
+    display: block;
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: fadeDown 1s ease forwards;
+}
+
+@keyframes fadeDown {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
