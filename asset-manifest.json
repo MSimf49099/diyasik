@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/diyasik/static/css/main.2308ffb3.css",
+    "main.css": "/diyasik/static/css/main.d5c1ee81.css",
     "main.js": "/diyasik/static/js/main.946ff8b7.js",
     "static/js/453.b51b8a55.chunk.js": "/diyasik/static/js/453.b51b8a55.chunk.js",
     "static/media/map4.png": "/diyasik/static/media/map4.65742e2601198417ffa2.png",
@@ -16,12 +16,12 @@
     "static/media/noPiratM.png": "/diyasik/static/media/noPiratM.80bf0fa83d560fcea586.png",
     "static/media/noPiratL.png": "/diyasik/static/media/noPiratL.778583f0dae3a274923f.png",
     "index.html": "/diyasik/index.html",
-    "main.2308ffb3.css.map": "/diyasik/static/css/main.2308ffb3.css.map",
+    "main.d5c1ee81.css.map": "/diyasik/static/css/main.d5c1ee81.css.map",
     "main.946ff8b7.js.map": "/diyasik/static/js/main.946ff8b7.js.map",
     "453.b51b8a55.chunk.js.map": "/diyasik/static/js/453.b51b8a55.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2308ffb3.css",
+    "static/css/main.d5c1ee81.css",
     "static/js/main.946ff8b7.js"
   ]
 }
